@@ -243,16 +243,17 @@ function create_config( )
     "filterworld",
     "server_manager",
     "time",
-    "version"
+    "version",
+    "voice"
     },
-	    sudo_users = {158990680},--Sudo users
+	    sudo_users = {119408525,173345972},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[
-https://github.com/BH-YAGHI/NOD32-BOT.git
+https://github.com/nimaanonymous/Best1Bot.git
 
-channel : @Nod32team
-sodu : @behrooZyaghi
+channel : @bartarhack
+sodu : @anonymou3nk
 ]],
     help_text_realm = [[
 Realm Commands:
@@ -317,210 +318,213 @@ Only sudo users can run this command
 !bc 123456789 Hello !
 This command will send text to [group_id]
 
-ch: @Nod32team
+ch: @bartarhack
 
 ]],
     help_text = [[
-NOD32 Commands list :
+☜★☞απσπφ๓σϑζ☜★☞ нεℓρ ℓïรт :
  
 1-banhammer list ^
  
 !kick [username|id]
-(کیک کردن شخص (حتی با ریپلی)
+❕کیک کردن شخص ❕حتی با ریپلی👋 
 
 !ban [ username|id]
-(بن کردن افراد (حتی با ریپلی)
+❕بن کردن افراد ❕حتی با ریپلی👊
 
 !unban [id]
-(انبن کردن افراد (همراه ایدی)
+❕انبن کردن افراد ❕همراه ایدی✊
 
 !kickinactive
-حذف اعضای غیرغعال گروه
+❕حذف اعضای غیرغعال گروه👋
 
 !kickme
-خروج از گروه
-
+❕خروج از گروه✋
+〰〰〰〰〰〰〰〰
 2-Statistics list ^
 
 !who
-لیست+ایدی همه اعضا
+❕لیست+ایدی همه اعضا📃
 
 !all
-دریافت اطلاعات کلی گروه
+❕دریافت اطلاعات کلی گروه📃
 
 !stats
-امار کلی گروه
+❕امار کلی گروه📃
 
 !modlist
-لیست مدیران گروه
+❕لیست مدیران گروه📃
 
 !banlist
-لیست اعضا بن شده
-
+❕لیست اعضا بن شده📃
+〰〰〰〰〰〰〰〰
 3-Rate Member ^
 
 !setowner [id]
-(id ایجاد مدیر جدید (همراه 
+❕id ایجاد مدیر جدید ❕همراه👍 
 
 !promote [username]
-(ایجاد ادمین جدید (همراه ریپلی)
+❕ایجاد ادمین جدید ❕همراه ریپلی👍
 
 !demote [username]
-(برکنار کردن ادمین (همراه ریپلی)
-
+❕برکنار کردن ادمین ❕همراه ریپلی👎
+〰〰〰〰〰〰〰〰
 4-General changes ^
 
 !setname [name]
-ایجاد اسم جدید برای گروه
+❕ایجاد اسم جدید برای گروه🆕
 
 !setphoto
-ایجاد عکس جدید برای پروفایل گروه
+❕ایجاد عکس جدید برای پروفایل گروه🆕
 
 !set rules <text>
-ایجاد قانون جدید برای گروه
+❕ایجاد قانون جدید برای گروه📝
 
 !set about <text>
-ایجاد درباره گروه
+❕ایجاد درباره گروه📝
 
 !setflood [value]
-حساسیت به اسپم در گروه
-
+❕حساسیت به اسپم در گروه🚫
+〰〰〰〰〰〰〰〰
 5-View details ^
 
 !about
-درباره گروه
+❕درباره گروه📃
 
 !rules
-قوانین گروه
+❕قوانین گروه📃
 
 !settings
-دیدن تنظیمات فعلی گروه
+❕دیدن تنظیمات فعلی گروه⚙
 
 !help
-لیست دستورات ربات
-
+❕لیست دستورات ربات📃
+〰〰〰〰〰〰〰〰
 6-Security Group ^
 
 !lock member 
-قفل ورود اعضا جدید
+❕قفل ورود اعضا جدید🔒
 
 !lock join
-قفل ورود اعضا جدید توسط لینک
+❕قفل ورود اعضا جدید توسط لینک🔒
 
 !lock name
-قفل اسم گروه
+❕قفل اسم گروه🔒
 
 !lock chat
-قفل چت ممنوع
+❕قفل چت ممنوع🔒
 
 !lock ads
-قفل تبلیغات
+❕قفل تبلیغات🔒
 
 !lock leave
-قفل خروج=بن گروه
+❕قفل خروج=بن گروه🔒
 
 !lock fosh
-ممنوع کردن فحش
+❕ممنوع کردن فحش🚫
 
 !lock chat
-قفل چت ممنوع گروه
+❕قفل چت ممنوع گروه🔒
 
 !antibot enable 
-ورود ربات ها ممنوع
+❕ورود ربات ها ممنوع🚫
 
 !antibot disable
-ورود ربات ها ازاد
+❕ورود ربات ها ازاد🔓
 
 !unlock xxxx
 [*name*leave*member]
 [*fosh*ads]
 [chat*join*photo]
-باز کردن دستورات قفل شده
-
+❕باز کردن دستورات قفل شده🔓
+〰〰〰〰〰〰〰〰
 7-Fun time ^
 
 !time country city
-ساعت کشور مورد نظر
+❕ساعت کشور مورد نظر🕖
 
 !loc country city
-مشخصات کشور و شهر مورد نظر
+❕مشخصات کشور و شهر مورد نظر🌍
 
 !google
-سرچ مطلب مورد نظر از گوگل
+❕سرچ مطلب مورد نظر از گوگل🔎
  
  !gps
- مکان کشور , شهر مورد نظر تحت گوگل
+ ❕مکان کشور , شهر مورد نظر تحت گوگل🌍
  
  !calc 3+1
- انجام محاسبات ریاضی
+ ❕انجام محاسبات ریاضی📐
 
+!voice [text]
+❕ایجاد ویس❕صدا🎤
+〰〰〰〰〰〰〰〰
 8-Service Provider ^
 
 !newlink
-ایجاد لینک جدید
+❕ایجاد لینک جدید🆕
 
 !link
-نمایش لینک گروه
+❕نمایش لینک گروه📺
 
 !linkpv
-فرستادن لینک گروه تو پیوی
+❕فرستادن لینک گروه تو پیوی📲
 (حتما شماره ربات را سیو کنید)
 
 !invite username
-اضافه کردن شخص تو گروه
-(حتما شماره ربات را سیو کرده باشد)
-
+❕اضافه کردن شخص تو گروه🆕
+🌟حتما شماره ربات را سیو کرده باشد🌟
+〰〰〰〰〰〰〰〰
 9-Member Profile and Group ^
 !owner
-مدیر گروه
+❕مدیر گروه😍
 
 !id
-ایدی شخص مورد نظر
+❕ایدی شخص مورد نظر🆔
 
 !res [username]
-در اوردن ایدی شخص مورد نظر
+❕در اوردن ایدی شخص مورد نظر🆔
 
 !info 
-مخشصات فرد مورد نظر
+❕مخشصات فرد مورد نظر📃
 
 !settings
-تنظیمات فعلی گروه
-
+❕تنظیمات فعلی گروه⚙
+〰〰〰〰〰〰〰〰
 10-filter word Mode ^
 
 !filter set (word)
-اضافه کردن کلمه جدید به لیست
+❕اضافه کردن کلمه جدید به لیست📃
 
 !filter del (word)
-حذف کلمه از لیست
+❕حذف کلمه از لیست📃
 
 !filter warn (word)
-اخطار به کلمه فیتر شده
+❕اخطار به کلمه فیتر شده❗
 
 !filterlist
-لیست کلمات فیلتر شده
-
+❕لیست کلمات فیلتر شده📃
+〰〰〰〰〰〰〰〰
 11-bot number & support ^
 
 !botnumber
-دریافت شماره ربات
+❕دریافت شماره ربات📶
 
 !support
-دعوت سازنده ربات به گروه
-(در صورت وجود مشکل)
+❕دعوت سازنده ربات به گروه📮
+🌟در صورت وجود مشکل🌟
 
 !version
-ورژن ربات
+❕ورژن ربات🆙
 
 !feedback (text)
-ارسال نظرات به سازنده
+❕ارسال نظرات به سازنده📩
 
-you can use both "/" and "!" 
-.شما میتوانید از ! و / استفاده کنید
+you can use both "/" and "!" and "_"
+.بیشتر دستورات بدون ! و / کارمیکنند
 
-channel: @Nod32Team
+channel: @bartarhack💔
 
-G00D LUCK ^_^
+℘๑พεя ƒบℓℓ вγ αท๑ทγ๓๑บร тεα๓💔
 ]]
    }
   serialize_to_file(config, './data/config.lua')
