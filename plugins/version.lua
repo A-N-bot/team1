@@ -1,15 +1,15 @@
 do
 
 function run(msg, matches)
-  return 'NOD32-BOT v8'.. VERSION .. [[ 
+  return '☜★☞απσπφ๓σϑζ☜★☞-BOT 👁😎'.. VERSION .. [[ 
  
-  Developer : @Behroozyaghi
+  Developer : @anonymou3nk 👁😎
   
-  Channel : @Nod32team
+  Channel : @bartarhack 👁😎
   
-  Open git : https://github.com/BH-YAGHI/NOD32-BOT.git
+  Open git : ☜★☞απσπφmσϑζ☜★☞ 👁😎
   
-  NOD32 VERSION 8
+      ☜★☞σπσπφ๓σϑζ☜★☞  V3😎
   
   All rights reserved.
   __________________]]
