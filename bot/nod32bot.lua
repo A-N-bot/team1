@@ -243,6 +243,7 @@ function create_config( )
     "spam",
     "stats",
     "support",
+    "sticker-text",
     "filterworld",
     "server_manager",
     "time",
