@@ -1,15 +1,15 @@
 do
 
 function run(msg, matches)
-  return '☜★☞απσπφ๓σϑζ☜★☞-BOT 👁😎'.. VERSION .. [[ 
+  return '☜★☞απσπφ๓σϑζ☜★☞-BOT'.. VERSION .. [[ 
  
-  Developer : @anonymou3nk 👁😎
+  Developer : @anonymou3nk
   
-  Channel : @bartarhack 👁😎
+  Channel : @bartarhack
   
-  Open git : ☜★☞απσπφmσϑζ☜★☞ 👁😎
+  Open git : ☜★☞απσπφmσϑζ☜★☞
   
-      ☜★☞σπσπφ๓σϑζ☜★☞  V3😎
+      ☜★☞σπσπφ๓σϑζ☜★☞  V3
   
   All rights reserved.
   __________________]]
