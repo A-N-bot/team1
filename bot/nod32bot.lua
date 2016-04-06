@@ -504,27 +504,23 @@ ch: @bartarhack
 !filterlist
 ❕لیست کلمات فیلتر شده📃
 〰〰〰〰〰〰〰〰
-11-bot number & support ^
+11-bot number & all ^
 
 !botnumber
 ❕دریافت شماره ربات📶
 
-!support
-❕دعوت سازنده ربات به گروه📮
-🌟در صورت وجود مشکل🌟
+!clash [clantag]
+❕مشخصات کلن موردنظر📝
 
 !version
 ❕ورژن ربات🆙
 
 !feedback (text)
-❕ارسال نظرات به سازنده📩
+❕اینستا گرام شخص موردنظر🌟
 
 you can use both "/" and "!" and "_"
 .بیشتر دستورات بدون ! و / کارمیکنند
 
-channel: @bartarhack💔
-
-℘๑พεя ƒบℓℓ вγ αท๑ทγ๓๑บร тεα๓💔
 ]]
    }
   serialize_to_file(config, './data/config.lua')
