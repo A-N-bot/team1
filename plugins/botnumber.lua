@@ -1,7 +1,7 @@
 do
 
 function run(msg, matches)
-send_contact(get_receiver(msg), "+989178827886", "بکنش توی کس", "ننت", ok_cb, false)
+send_contact(get_receiver(msg), "+989178827886", "☜★☞απσπφ๓σϑζ☜★☞", "βστ", ok_cb, false)
 end
 
 return {
