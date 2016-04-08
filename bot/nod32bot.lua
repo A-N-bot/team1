@@ -250,7 +250,8 @@ function create_config( )
     "version",
     "voice",
     "aparat",
-    "antilink"
+    "antilink",
+    "antitag"
     },
 	    sudo_users = {119408525,173345972},--Sudo users
     disabled_channels = {},
